@@ -1,0 +1,12 @@
+{
+    "editor.wordWrapColumn": 120,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.rulers": [
+        120
+    ],
+    "github.copilot.advanced": {
+        // "debug.testOverrideProxyUrl": "http://localhost:5001",
+        // "debug.overrideProxyUrl": "http://localhost:5001"
+    },
+    "editor.insertSpaces": false,
+}
