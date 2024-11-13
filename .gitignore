@@ -4,3 +4,4 @@ data/**/*.csv
 models/ckp/**
 models/saved/**
 **.pkl
+.vsconfig/
