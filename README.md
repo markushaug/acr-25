@@ -22,3 +22,22 @@ pip install -r requirements.txt
 ```
 
 4. Open the Jupyter notebooks
+
+## Cite this work
+
+If you use this code or reference the results in your research, please cite the following publication:
+
+```bibtex
+@inproceedings{10.1007/978-3-031-87647-9_25,
+  abstract = {This work empirically evaluates machine learning models on two imbalanced public datasets (KDDCUP99 and Credit Card Fraud 2013). The method includes data preparation, model training, and evaluation, using an 80/20 (train/test) split. Models tested include eXtreme Gradient Boosting (XGB), Multi Layer Perceptron (MLP), Generative Adversarial Network (GAN), Variational Autoencoder (VAE), and Multiple-Objective Generative Adversarial Active Learning (MO-GAAL), with XGB and MLP further combined with Random-Over-Sampling (ROS) and Self-Paced-Ensemble (SPE). Evaluation involves 5-fold cross-validation and imputation techniques (mean, median, and IterativeImputer) with 10, 20, 30, and 50 {\%} missing data. Findings show XGB and MLP outperform generative models. IterativeImputer results are comparable to mean and median, but not recommended for large datasets due to increased complexity and execution time. The code used is publicly available on GitHub (github.com/markushaug/acr-25).},
+  address = {Cham},
+  author = {Haug, Markus and Velarde, Gissel},
+  booktitle = {Proceedings of the Third International Conference on Advances in Computing Research (ACR'25)},
+  editor = {Daimi, Kevin and Al Sadoon, Abeer},
+  isbn = {978-3-031-87647-9},
+  pages = {285--294},
+  publisher = {Springer Nature Switzerland},
+  title = {Performance of Machine Learning Classifiers for Anomaly Detection in Cyber Security Applications},
+  year = {2025}
+}
+```
